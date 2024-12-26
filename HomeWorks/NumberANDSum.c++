@@ -3,8 +3,18 @@ using namespace std;
 
 int main()
 {
-    int num1 = 20, num2 = 30, num3 = 10;
-    cout << num1 << " +\n";
+    int num1, num2, num3;
+
+    cout << "Enter the first number : \n";
+    cin >> num1;
+    cout << "Enter the second number : \n";
+    cin >> num2;
+    cout << "Enter the Third Number : \n";
+    cin >> num3;
+
+    cout << endl;
+    cout
+        << num1 << " +\n";
     cout << num2 << " +\n";
     cout << num3 << "\n";
     cout << "_________________________________________________\n\n";
