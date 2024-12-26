@@ -6,7 +6,7 @@ int main()
 {
     // variables
     string name, city;
-    int age, monthlySalary, yearlySalary;
+    unsigned short age, monthlySalary, yearlySalary;
     bool wifes ;
     char gender = 'M';
 
