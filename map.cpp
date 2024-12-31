@@ -1,10 +1,17 @@
 #include <iostream>
 #include <map>
 
-using namespace std ;
-
-int main(){
-    int map1 ;
-    map1 = new map();
-    cout<<map1;
+using namespace std;
+enum Color
+{
+    red,
+    blue,
+    green,
+    yellow
+};
+int main()
+{
+    Color myColor;
+    myColor = Color::green;
+    cout << myColor;
 }
