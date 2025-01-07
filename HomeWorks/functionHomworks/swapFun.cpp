@@ -14,8 +14,12 @@ int swapFn(int &x, int &y)
 
 int main()
 {
-    int x = 10;
-    int y = 20;
+    int x , y;
+    cout <<"Enter X : ";
+    cin >> x; 
+    cout <<"Enter Y : ";
+    cin>>y ;  
     cout << " X Befor is : " << x << "Y Befor is : " << y <<endl;
      swapFn(x, y);
+    cout << " X After is : " << x << "Y after is : " << y <<endl;
 }
