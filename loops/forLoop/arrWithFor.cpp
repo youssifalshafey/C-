@@ -23,25 +23,18 @@ void printValues(int arr[100], int length)
     }
     cout << "\n";
 }
-
-void calculatSum(int arr[100], int length)
+int calculatSum(int arr[100], int length)
 {
     int sum = 0;
     for (int i = 0; i < length; i++)
     {
         sum += arr[i];
     }
-    cout << "\n Sum = " << sum << endl;
+    return sum;
 }
-
-void calculatAvrg(int arr[100], int length)
+float calculatAvrg(int arr[100], int length)
 {
-    int sum = 0;
-    for (int i = 0; i < length; i++)
-    {
-        sum += arr[i];
-    }
-    cout << "\n Avrage = " << sum / length << endl;
+    return (float)calculatSum(arr, length) / length;
 }
 
 int main()
@@ -49,6 +42,7 @@ int main()
     int arr[100], length = 0;
     readValue(arr, length);
     printValues(arr, length);
-    calculatSum(arr, length);
-    calculatAvrg(arr, length);
+    int sum = calculatSum(arr, length);
+    cout<<"Sum = "<<sum<<endl;
+    cout<<"Avarage = "<<calculatAvrg(arr, length);
 }
