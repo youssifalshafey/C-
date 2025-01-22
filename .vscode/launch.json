@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Administrator/Documents/GitHub/C-/HomeWorks/array",
-      "program": "c:/Users/Administrator/Documents/GitHub/C-/HomeWorks/array/build/Debug/outDebug",
+      "cwd": "c:/Users/Administrator/Documents/GitHub/C-/loops/forLoop",
+      "program": "c:/Users/Administrator/Documents/GitHub/C-/loops/forLoop/${relativeFileDirname}",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
