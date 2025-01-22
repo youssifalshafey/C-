@@ -1,10 +1,18 @@
-#include<iostream>
+#include <iostream>
+#include <string>
 using namespace std;
 
-int main(){
-    for (int i = 0 ; i <= 0 ; i ++){
-        for(int j = 0 ; j <= i++ ; j ++){
-            
+int main()
+{
+    for (int i = 65; i <= 90; i++)
+    {
+        cout << "LATTER : " << char(i) << endl;
+        cout<<"----------------------\n";
+        for (int j = 65; j <= 90; j++)
+        {
+
+            cout << char(i);
+            cout << char(j) << endl;
         }
     }
 }
